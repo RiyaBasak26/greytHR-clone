@@ -1,0 +1,117 @@
+.loginHeader{
+    width: 100%;
+    height: 65px;
+}
+.logfinHeaderSpan{
+    width: 125px;
+    height: 100%;
+    margin-left: 10rem;
+    display: block;
+}
+.cbnitsLogo{
+    width: 120px;
+    height: 100%;
+}
+.mainDiv{
+    display: flex;
+    width: 100%;
+    height: 80vh;
+    align-items: center;
+}
+.rightDiv {
+    width: 50%;
+    display: flex;
+    justify-content: flex-end;
+}
+.leftDiv{
+    width: 50%;
+    margin: 2rem;
+}
+.loginForm
+{
+    width: 55%;
+    padding: 30px;
+    box-shadow: rgb(149 157 165 / 20%) 0px 8px 24px;
+    border-radius: 10px;
+}
+.formHeader{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 100px;
+}
+
+.formTitle{
+    font-size: 22px;
+    color: #535556;
+}
+.formHeaderLogo{
+    width: 100px;
+}
+.formInputSpan{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+}
+.formInputSpan label{
+    margin-bottom: 12px;
+    font-size: 12px;
+    font-weight: 500;
+    color: #7a7671
+}
+.submit{
+    width: 100%;
+}
+.input{
+    border-radius: 5px;
+    padding: 12px;
+    border: 1px solid #cfc6c6
+}
+.forgotPassword{
+    float: right;
+    margin-bottom: 1rem;
+}
+.forgotPasswordLink{
+    text-decoration: none;
+    font-size: 14px;
+    color: #327dd9;
+    font-weight: 600
+}
+.slider{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.sliderDiv{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #6c6c6c;
+}
+.sliderDiv div{
+    font-size: 12px;
+}
+.error{
+    margin-bottom: 10px;
+    font-size: 14px;
+    background: #fff2f2;
+    height: 45px;
+    border-radius: 5px;
+    padding: 10px;
+}
+.errorInput{
+    border: 1px solid #e37474 !important;
+}
+.errorInput:focus{
+    outline: none;
+    border: 1px solid #e37474 !important;
+ 
+}
+
+.input:focus {
+    outline: none;
+    border: 2px solid #8eccdd
+}
